@@ -1,0 +1,30 @@
+*{margin: 0px;
+padding: 0px;}
+body { height: 100vh;
+    display: flex;
+align-items: center;
+justify-content: center;}
+.container {display: flex;
+    flex-direction: column;
+align-items: center;}
+.container div {display: flex;}
+.container div div { width: 200px;
+    margin: 5px;
+height: 220px;
+
+display: flex;
+align-items: center;
+flex-direction: column;}
+.year  { width: 350px !important;}
+.year span:first-of-type   { width: 350px !important;}
+.container div div span:first-of-type {width: 200px;  
+height: 200px;
+background: black;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size:120px ;
+color: white;
+font-weight: 700;
+border-radius: 20px;}
+.container div div span:last-of-type { font-size: 30px;}
